@@ -1,0 +1,78 @@
+.contentDiv {
+  width: 1000px;
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-around;
+  gap: 30px; 
+  margin-top: 30px;
+  
+ 
+}
+.textP{
+  font-size: 2rem;
+}
+.contentDiv span {
+  position: relative; 
+  padding: 15px;
+  width: 250px;
+  height: 200px;
+  justify-self: stretch;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+  
+}
+
+.time{
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+
+}
+
+.deleteButton {
+  background-color: #fff;
+  color: grey;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+
+}
+
+.editButton {
+  background-color: #fff;
+  color: grey;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  margin: 0 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .contentDiv {
+    width: 95%;
+    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+    gap: 10px;
+  }
+
+  .contentDiv span {
+    width: 95%;
+    height: 60px;
+    padding: 10px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,8 @@
+.headerDiv{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #e71d36;
+}

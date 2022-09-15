@@ -1,0 +1,23 @@
+.search {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px;
+    font-size: 0.9rem;
+    outline: none;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .search {
+        width: 250px;
+        font-size: 0.8rem;
+
+    }
+}
